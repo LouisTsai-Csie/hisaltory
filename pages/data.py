@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 
 def data():
-    st.header('相關文獻數據彙整')
+    st.title('相關文獻數據彙整')
     expander1 = st.expander('台灣鹽的來源')
     expander1.image(Image.open('images/p.png'), caption='台灣鹽的來源')
     expander1.button('Download', key=1)

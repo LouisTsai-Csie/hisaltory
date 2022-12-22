@@ -3,7 +3,7 @@ from PIL import Image
 
 
 def files():
-    st.header('相關文獻史料彙整')
+    st.title('相關文獻史料彙整')
     st.text('可於該區域查找日治時期相關文獻之內容與簡介')
 
     expander1 = st.expander('一般用鹽數量及價格')
